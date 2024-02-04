@@ -2,8 +2,8 @@
 = Rui Sun
 
 ~~~
-{}{img_left}{bio.jpg}{alt text}{160}{160}{https://scholar.google.com/citations?user=DNoO_lYAAAAJ&hl=en Google Scholar}
-- Google Scholar: [https://scholar.google.com/citations?user=DNoO_lYAAAAJ&hl=en Google Scholar]
+{}{img_left}{assets/bio.jpg}{alt text}{160}{160}{}
+- Google Scholar: {}{img_left}{assets/scholar.png}{alt text}{20}{20}{https://scholar.google.com/citations?user=DNoO_lYAAAAJ&hl=en Google Scholar}
 - Email: eruisun@mit.edu
 ~~~
 
