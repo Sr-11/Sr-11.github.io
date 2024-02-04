@@ -1,0 +1,12 @@
+# jemdoc: menu{MENU}{main.html}, nofooter
+= Rui Sun
+
+~~~
+{}{img_left}{bio.jpg}{alt text}{160}{160}{}
+- Google Scholar: [https://scholar.google.com/citations?user=DNoO_lYAAAAJ&hl=en Google Scholar]
+- Email: eruisun@mit.edu
+~~~
+
+== About Me
+
+I'm Rui Sun, an undergraduate majoring in mathematics and physics at MIT. Prior to this, I was an undergraduate at Peking University. My interests lie broadly in machine learning and statistics.
