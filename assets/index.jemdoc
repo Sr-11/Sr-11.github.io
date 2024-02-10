@@ -3,7 +3,9 @@
 
 ~~~
 {}{img_left}{assets/bio.jpg}{alt text}{160}{160}{}
-- Google Scholar: {}{img_left}{assets/scholar.png}{alt text}{20}{20}{https://scholar.google.com/citations?user=DNoO_lYAAAAJ&hl=en Google Scholar}
+- Google Scholar: 
+{}{img_left}{assets/bio.jpg}{alt text}{160}{160}{}
+{}{}{assets/scholar.png}{alt text}{20}{20}{}
 - Email: eruisun@mit.edu
 ~~~
 
