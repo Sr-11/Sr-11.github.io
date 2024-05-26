@@ -7,12 +7,6 @@
 == Physics
 [https://atlas.cern/Resources/Opendata ATLAS Open Data]
 
-== A(G?)I
-Reasoning?
-
-== Recent Questions That Trigger My Interests
-What is intelligence, how to define it? Why can't current AI learn how to do math? 
-
 == Map
 ~~~
 {}{raw}
@@ -20,7 +14,16 @@ What is intelligence, how to define it? Why can't current AI learn how to do mat
 ~~~
 
 == Chatting
+~~~
+{}{raw}
 <!-- Calendly inline widget begin -->
 <div class="calendly-inline-widget" data-url="https://calendly.com/sunrui2021/30min" style="min-width:320px;height:700px;"></div>
 <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
 <!-- Calendly inline widget end -->
+~~~
+
+== A(G?)I and Some Big Problems
+
+* Understanding and Building a smarter AI
+* What is intelligence how to define it? Why can't current AI learn how to do math? Reasoning?
+
