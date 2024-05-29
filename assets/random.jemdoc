@@ -25,5 +25,15 @@
 == A(G?)I and Some Big Problems
 
 * Understanding and Building a smarter AI
-* What is intelligence how to define it? Why can't current AI learn how to do math? Reasoning?
 
+* What is intelligence how to define it? Why can't current AI learn how to do math (inherently)? Reasoning? Logic? 
+
+
+# word2vec
+# learn rule. How to code it.
+# 算数不行，不够impact，计算机已经可以算了
+# how to do logical reasoning.
+# 问题还在leaning上。NLP因为这是一个大领域。for math.
+# https://neurips.cc/virtual/2023/workshop/66522
+# 首先define一个问题。IMO就是。
+# Out-of-Distribution Generalization 
