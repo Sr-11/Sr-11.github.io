@@ -1,6 +1,15 @@
 # jemdoc: menu{MENU}{random.html}, nofooter
 = Random
 
+
+== Some Big Problems
+
+* Understanding and Building Smarter AI.
+* What is intelligence, how to define it?
+* Why can't current AI learn how to do math (inherently, but not prompting LLM to write codes)?
+* How does human realize how to do logics and reasoning? 
+
+
 == Computational 
 [https://github.com/Sr-11]
 
@@ -14,6 +23,9 @@
 ~~~
 
 == Chatting
+
+I am eager to learn from and collaborate with individuals from diverse backgrounds. If you would like to discuss something, I would be grateful to hear from you. Please feel free to contact me via email or schedule a time to chat through Chatting Time.
+
 ~~~
 {}{raw}
 <!-- Calendly inline widget begin -->
@@ -22,11 +34,6 @@
 <!-- Calendly inline widget end -->
 ~~~
 
-== A(G?)I and Some Big Problems
-
-* Understanding and Building a smarter AI
-
-* What is intelligence how to define it? Why can't current AI learn how to do math (inherently)? Reasoning? Logic? 
 
 
 # word2vec
@@ -37,3 +44,4 @@
 # https://neurips.cc/virtual/2023/workshop/66522
 # 首先define一个问题。IMO就是。
 # Out-of-Distribution Generalization 
+# https://kempnerinstitute.harvard.edu/
