@@ -2,16 +2,26 @@
 = Random
 
 
-== Some Big Problems
+== Some Problems
 
-- Understanding and building smarter AI (or more specifically, maybe fundation models).  
+1. Building smarter AI (or more specifically, maybe fundation models).  
 - What is intelligence, how to define it?
 
-- Why can't current AI learn how to do math (inherently, but not prompting LLM to write codes)?
+- Why can't current AI learn how to do math (inherently, but not prompting LLM to write codes. But we can admit that traditional computer be a building block of AI, like different zones in human brain, it is fine. )?
 - How does human realize how to do logics and reasoning? 
 
 - How to find research problems?
 -- https://www.cs.jhu.edu/~jason/advice/how-to-find-research-problems.html
+
+
+2. Understanding AI / human? 
+- Why can't current AI learn how to do logic, self conciousness,
+
+3. Quantum Computer?
+- Is there quantum mechanics in human brain?
+Answer: 
+
+
 
 == Computational 
 [https://github.com/Sr-11]
@@ -36,6 +46,9 @@ I am enthusiastic about learning from and working with people of various backgro
 ~~~
 
 
+Science/Theory
+
+Engineering/Applied
 
 # word2vec
 # learn rule. How to code it.
