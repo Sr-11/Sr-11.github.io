@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: http://sr-11.github.io/sitemap.xml
