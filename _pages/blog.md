@@ -1,7 +1,7 @@
 ---
 layout: default
 permalink: /blog/
-title: blog
+title: Random
 nav: true
 nav_order: 1
 pagination:
@@ -14,6 +14,7 @@ pagination:
   trail:
     before: 1 # The number of links before the current page
     after: 3 # The number of links after the current page
+nav_order: 3
 ---
 
 <div class="post">
