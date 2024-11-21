@@ -20,7 +20,8 @@ social: true # includes social icons at the bottom of the page
 nav_order: 1
 ---
 
-I'm Rui Sun, an MIT undergraduate majoring in mathematics and physics. My interests lie in AI & ML.
+I am a first-year PhD student at Stanford University. Prior to this, I obtained my B.S. in Mathematics and Physics at MIT. My research interests focus on AI and Machine Learning.
+<br />
 
 ### Selected Awards
 

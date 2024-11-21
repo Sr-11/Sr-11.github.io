@@ -1,6 +1,17 @@
 /*******************************************************************************
  * Styles for the base elements of the theme.
  ******************************************************************************/
+ 
+ 
+body {
+  font-family: "Times New Roman";
+}
+p {
+  font-size: 1.1rem;
+}
+:root {
+  --global-divider-color: #333; /* Dark gray color */
+}
 
 // Typography
 
@@ -657,7 +668,7 @@ footer.sticky-bottom {
 // Publications
 
 .publications {
-  margin-top: 2rem;
+  margin-top: 0rem;
 
   h1 {
     color: var(--global-theme-color);

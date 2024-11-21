@@ -1,7 +1,13 @@
 ---
+{% comment %}
+这里编辑文末的引用格式
+{% endcomment %}
 ---
 <div class="row">
   {% if site.enable_publication_thumbnails %}
+  {% comment %}
+    缩略图
+  {% endcomment %}
     <div class="col col-sm-2 abbr">
       {%- if entry.abbr -%}
         {%- if site.data.venues[entry.abbr] -%}
