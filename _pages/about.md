@@ -20,7 +20,7 @@ social: true # includes social icons at the bottom of the page
 nav_order: 1
 ---
 
-I am a first-year PhD student at Stanford University. Prior to this, I obtained my B.S. in Mathematics and Physics at MIT. My research interests focus on AI and Machine Learning.
+I am a first-year PhD student at Stanford University. Prior to this, I obtained my B.S. in Mathematics and Physics at MIT. My research interests lie in AI & ML.
 <br />
 
 ### Selected Awards
