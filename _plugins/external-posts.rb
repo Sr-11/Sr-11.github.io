@@ -62,6 +62,7 @@ module ExternalPosts
       doc.data['description'] = content[:summary]
       doc.data['date'] = content[:published]
       doc.data['redirect'] = url
+      doc.data['tags'] = content[:tags]
       site.collections['posts'].docs << doc
     end
 
@@ -70,6 +71,7 @@ module ExternalPosts
         puts "...fetching #{post['url']}"
         content = fetch_content_from_url(post['url'])
         content[:published] = parse_published_date(post['published_date'])
+        content[:tags] = post['tags']
         create_document(site, src['name'], post['url'], content)
       end
     end
