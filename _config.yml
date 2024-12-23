@@ -173,11 +173,11 @@ external_sources:
       - url: https://tomsilver.github.io/blog/2024/lessons/
         published_date: 2024-06-28
         tags: ['external-blogs']
-  - name:
-    posts:
-      - url: https://www.zhihu.com/pin/1848753817232994304
-        published_date: 
-        tags: ['external-blogs']
+  # - name:
+  #   posts:
+  #     - url: https://www.zhihu.com/pin/1848753817232994304
+  #       published_date: 2024-06-28
+  #       tags: ['external-blogs']
 
 # -----------------------------------------------------------------------------
 # Newsletter
