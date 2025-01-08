@@ -20,7 +20,7 @@ social: true # includes social icons at the bottom of the page
 nav_order: 1
 ---
 
-I am a first-year PhD student at Stanford. Prior to this, I obtained my B.S. in Mathematics and Physics at MIT. My interests lie in theoretical foundations of AI & ML. I am supported by Stanford Graduate Fellowship. 
+I am a first-year PhD at Stanford. Prior to this, I obtained my B.S. in Mathematics and Physics at MIT. I am grateful to be supported by a Stanford Graduate Fellowship. My interests lie in theoretical foundations of AI & ML. 
 <br />
 
 ### Selected Awards
