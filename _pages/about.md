@@ -27,4 +27,4 @@ My interests lie in theoretical foundations of AI & ML, with the ultimate goal o
 
 ### Selected Awards
 
-Gold medal @ International Physics Olympiad 2020
+Gold medal @ International Physics Olympiad (IPhO) 2020
