@@ -21,8 +21,8 @@ nav_order: 1
 ---
 
 I am Statistics PhD student at Stanford, currently working under Professor Emmanuel J. Candès. Prior to this, I obtained my B.S. in Mathematics and Physics at MIT. I am grateful to be supported by a Stanford Graduate Fellowship. 
-<!-- My interests lie in theoretical foundations of AI & ML
-, with the ultimate goal of building more powerful and trustworthy AI systems.  -->
+My interests lie in theoretical foundations of AI & ML
+, with the ultimate goal of building more powerful and trustworthy AI systems. 
 <br />
 <br />
 
