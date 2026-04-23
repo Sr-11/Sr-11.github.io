@@ -20,7 +20,7 @@ social: true # includes social icons at the bottom of the page
 nav_order: 1
 ---
 
-I am Statistics PhD student at Stanford. Prior to this, I obtained my B.S. in Mathematics and Physics at MIT. I am grateful to be supported by a Stanford Graduate Fellowship. 
+I am Statistics PhD student at Stanford. Prior to this, I obtained my B.S. in Mathematics and Physics at MIT, and I studied at Peking University for two years before that. I am grateful to be supported by a Stanford Graduate Fellowship. 
 <!-- My interests lie in theoretical foundations of AI & ML -->
 <!-- , with the ultimate goal of building more powerful and trustworthy AI systems.  -->
 <br />
