@@ -12,7 +12,7 @@ social: true # includes social icons at the bottom of the page
 nav_order: 1
 ---
 
-I am a PhD student in Statistics at Stanford, advised by [Emmanuel Candès](https://candes.su.domains/) and [Lihua Lei](https://lihualei71.github.io/). Prior to this, I obtained my B.S. in Mathematics and Physics at MIT, and studied at Peking University before that. I am grateful to be supported by a Stanford Graduate Fellowship.
+I am a Statistics PhD student at Stanford, advised by [Emmanuel Candès](https://candes.su.domains/) and [Lihua Lei](https://lihualei71.github.io/). Prior to this, I obtained my B.S. in Mathematics and Physics at MIT, and studied at Peking University before that. I am grateful to be supported by Stanford Graduate Fellowship.
 <br />
 <br />
 
