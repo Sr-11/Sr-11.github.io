@@ -12,7 +12,7 @@ social: true # includes social icons at the bottom of the page
 nav_order: 1
 ---
 
-I am a Statistics Ph.D. student at Stanford, grateful to be advised by Professors [Emmanuel J. Candès](https://candes.su.domains/) and [Lihua Lei](https://lihualei71.github.io/). Prior to this, I obtained my B.S. in Mathematics and Physics at MIT, and studied at Peking University before that. I am supported by Stanford Graduate Fellowship.
+I am a Statistics Ph.D. student at Stanford, grateful to be advised by Professors [Emmanuel J. Candès](https://candes.su.domains/) and [Lihua Lei](https://lihualei71.github.io/). Prior to this, I obtained my B.S. in Mathematics and Physics at MIT. I am supported by Stanford Graduate Fellowship.
 <br />
 <br />
 
@@ -21,3 +21,4 @@ I am a Statistics Ph.D. student at Stanford, grateful to be advised by Professor
 Gold medal, International Physics Olympiad (IPhO) 2020
 <br />
 Chinese National Training Team, International Mathematical Olympiad (IMO) 2020
+<br />
