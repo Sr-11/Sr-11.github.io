@@ -19,5 +19,5 @@ I am a PhD student in Statistics at Stanford, advised by [Emmanuel Candès](http
 ### Selected Awards
 
 Gold medal, International Physics Olympiad (IPhO) 2020
-
-National Training Team for the International Mathematical Olympiad (IMO) 2020
+<br />
+Chinese National Training Team, International Mathematical Olympiad (IMO) 2020
