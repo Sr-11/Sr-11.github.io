@@ -13,7 +13,7 @@ p {
   --global-divider-color: #333; /* Dark gray color */
 }
 
-// Typography
+// Typography / 排版基础
 
 p,
 h1,
@@ -143,7 +143,7 @@ blockquote {
   }
 }
 
-// Checklist
+// Checklist / 任务清单
 
 ul.task-list {
   list-style-type: none; /* Remove bullets from all levels */
@@ -159,14 +159,14 @@ ul.task-list input[type="checkbox"] {
   vertical-align: middle;
 }
 
-// Math
+// Math / 数学公式
 
 .equation {
   margin-bottom: 1rem;
   text-align: center;
 }
 
-// Caption
+// Caption / 图片说明
 
 .caption {
   font-size: 0.875rem;
@@ -175,7 +175,7 @@ ul.task-list input[type="checkbox"] {
   text-align: center;
 }
 
-// Card
+// Card / 卡片组件
 
 .card {
   background-color: var(--global-card-bg-color);
@@ -194,14 +194,14 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
-// Citation
+// Citation / 引用标记
 
 .citation,
 .citation-number {
   color: var(--global-theme-color);
 }
 
-// Profile
+// Profile / 个人头像区域
 
 .profile {
   width: 100%;
@@ -252,7 +252,7 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
-// Navbar customization
+// Navbar customization / 导航栏自定义
 
 .navbar {
   box-shadow: none;
@@ -388,7 +388,7 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
-// Social (bottom)
+// Social (bottom) / 底部社交图标
 
 .social {
   text-align: center;
@@ -445,7 +445,7 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
-// Footer
+// Footer / 页脚
 footer.fixed-bottom {
   background-color: var(--global-footer-bg-color);
   font-size: 0.75rem;
@@ -478,7 +478,7 @@ footer.sticky-bottom {
   }
 }
 
-// CV
+// CV / 简历页面
 
 .cv {
   margin-bottom: 40px;
@@ -510,7 +510,7 @@ footer.sticky-bottom {
   transform: translateX(-15px) translateY(-5px);
 }
 
-// Repositories
+// Repositories / 仓库列表
 
 @media (min-width: 768px) {
   .repo {
@@ -518,7 +518,7 @@ footer.sticky-bottom {
   }
 }
 
-// Blog
+// Blog / 博客列表
 
 .header-bar {
   border-bottom: 1px solid var(--global-divider-color);
@@ -617,7 +617,7 @@ footer.sticky-bottom {
   }
 }
 
-// Distill
+// Distill / Distill 文章样式
 
 .distill {
   a:hover {
@@ -626,7 +626,7 @@ footer.sticky-bottom {
   }
 }
 
-// Projects
+// Projects / 项目页面
 
 .projects {
   a {
@@ -665,7 +665,7 @@ footer.sticky-bottom {
   }
 }
 
-// Publications
+// Publications / 论文列表
 
 .publications {
   margin-top: 0rem;
@@ -843,7 +843,7 @@ footer.sticky-bottom {
   }
 }
 
-// Rouge Color Customization
+// Rouge Color Customization / 代码高亮配色
 figure.highlight {
   margin: 0 0 1rem;
 }
@@ -870,7 +870,7 @@ code {
   padding: 3px 3px;
 }
 
-// Transitioning Themes
+// Transitioning Themes / 主题切换过渡
 html.transition,
 html.transition *,
 html.transition *:before,
@@ -879,7 +879,7 @@ html.transition *:after {
   transition-delay: 0 !important;
 }
 
-// Extra Markdown style (post Customization)
+// Extra Markdown style (post Customization) / Markdown 文章额外样式
 .post {
   .post-meta {
     color: var(--global-text-color-light);
@@ -1141,8 +1141,8 @@ swiper-container {
   }
 }
 
-// Ninja Keys
-// for more options, check https://github.com/ssleptsov/ninja-keys?tab=readme-ov-file#css-variables
+// Ninja Keys / 快捷键搜索面板
+// For more options, check https://github.com/ssleptsov/ninja-keys?tab=readme-ov-file#css-variables / 更多选项见该链接
 ninja-keys {
   --ninja-accent-color: var(--global-theme-color);
   --ninja-icon-size: 0px;
@@ -1158,7 +1158,7 @@ ninja-keys::part(ninja-input-wrapper) {
   background: var(--global-bg-color);
 }
 
-// newsletter
+// Newsletter / 邮件订阅
 .newsletter-form-container {
   margin-bottom: 20px;
 }
@@ -1271,46 +1271,46 @@ ninja-keys::part(ninja-input-wrapper) {
   }
 }
 
-// popover is used for annotation in bib.liquid
+// Popover is used for annotation in bib.liquid / 弹出框用于 bib.liquid 里的注释
 .popover {
   background-color: var(--global-bg-color);
   border-color: var(--global-divider-color);
 
   .popover-header {
-    color: var(--global-text-color); // Header text color
+    color: var(--global-text-color); // Header text color / 弹出框标题文字颜色
     border-bottom: 1px solid var(--global-divider-color);
   }
 
   .popover-body {
-    color: var(--global-text-color); // Body text color
+    color: var(--global-text-color); // Body text color / 弹出框正文文字颜色
   }
 }
 
 .bs-popover-top {
-  // arrow fill color
+  // Arrow fill color / 箭头填充颜色
   .arrow::after {
     border-top-color: var(--global-bg-color);
   }
 
-  // arrow border color
+  // Arrow border color / 箭头边框颜色
   .arrow:before {
     border-top-color: var(--global-divider-color);
   }
 }
 
 .bs-popover-bottom {
-  // arrow fill color
+  // Arrow fill color / 箭头填充颜色
   .arrow::after {
     border-bottom-color: var(--global-bg-color);
   }
 
-  // arrow border color
+  // Arrow border color / 箭头边框颜色
   .arrow:before {
     border-bottom-color: var(--global-divider-color);
   }
 }
 
-// highlight-search-term
+// Highlight search term / 搜索词高亮
 ::highlight(search) {
   background-color: var(--global-theme-color);
   color: var(--global-text-color);

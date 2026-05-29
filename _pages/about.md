@@ -2,25 +2,17 @@
 layout: about
 title: About
 permalink: /
-# subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  more_info: 
-    # >
-    # <p>555 your office number</p>
-    # <p>123 your address street</p>
-    # <p>Your City, State 12345</p>
 
 social: true # includes social icons at the bottom of the page
 nav_order: 1
 ---
 
-I am Statistics PhD student at Stanford. Prior to this, I obtained my B.S. in Mathematics and Physics at MIT, and I studied at Peking University before that. I am grateful to be supported by a Stanford Graduate Fellowship. 
-<!-- My interests lie in theoretical foundations of AI & ML -->
-<!-- , with the ultimate goal of building more powerful and trustworthy AI systems.  -->
+I am a PhD student in Statistics at Stanford. Prior to this, I obtained my B.S. in Mathematics and Physics at MIT, and I studied at Peking University before that. I am grateful to be supported by a Stanford Graduate Fellowship.
 <br />
 <br />
 

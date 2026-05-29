@@ -2,93 +2,98 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank
-first_name: Rui
-middle_name:
-last_name: Sun
-email: eruisun at stanford dot edu
-description:
-keywords:
-lang: en
-icon:
-
-url: https://sr-11.github.io
-baseurl:
-last_updated: false
-impressum_path:
-back_to_top: true
-
-footer_text: >
+title: blank # blank 表示页面标题使用姓名，而不是单独站名
+first_name: Rui # 显示在首页、导航、页脚里的名字
+middle_name: # 中间名；没有就留空
+last_name: Sun # 显示在首页、导航、页脚里的姓
+email: eruisun at stanford dot edu # 社交图标里的邮箱地址
+description: # 搜索引擎用的站点简介，可留空
+keywords: # 搜索引擎关键词，可留空
+lang: en # 页面语言，输出为 <html lang="en">
+icon: # 网站 favicon；可填 emoji 或 assets/img/ 下的图片名
+url: https://sr-11.github.io # 站点域名，不要带末尾斜杠
+baseurl: # 站点子路径；用户主页部署在根路径，所以留空
+last_updated: false # 是否在页脚显示最后更新时间
+impressum_path: # Impressum 页面路径；没有就留空
+back_to_top: true # 是否显示右下角回到顶部按钮
+footer_text: > # 页脚版权后面的文字
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
 
 # -----------------------------------------------------------------------------
 # Layout
 # -----------------------------------------------------------------------------
 
-navbar_fixed: true
-footer_fixed: true
-max_width: 930px
+navbar_fixed: true # true 表示顶栏固定在浏览器顶部
+footer_fixed: true # true 表示页脚固定在浏览器底部
+max_width: 930px # 正文区域最大宽度
 
 # -----------------------------------------------------------------------------
-# Social links
+# Social integration
 # -----------------------------------------------------------------------------
 
-scholar_userid: DNoO_lYAAAAJ
-contact_note:
+scholar_userid: DNoO_lYAAAAJ # Google Scholar 个人主页 ID
+contact_note: # 社交图标下方的补充说明；没有就留空
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
 # -----------------------------------------------------------------------------
 
-markdown: kramdown
-
-include: ["_pages"]
-exclude:
+markdown: kramdown # Markdown 转 HTML 的引擎
+include: ["_pages"] # 让 Jekyll 处理 _pages 目录里的页面
+exclude: # 构建时不复制到 _site 的文件/目录
   - Gemfile
   - Gemfile.lock
   - LICENSE
   - README.md
   - vendor
 
-plugins:
-  - jekyll-email-protect
-  - jekyll-link-attributes
-  - jekyll-sitemap
+plugins: # 构建时启用的 Jekyll 插件
+  - jekyll-email-protect # 编码邮箱，减少被爬虫直接抓取
+  - jekyll-link-attributes # 给外链自动加 target 和 rel 属性
+  - jekyll-sitemap # 自动生成 sitemap.xml
 
 defaults:
   - scope:
       path: "assets"
     values:
-      sitemap: false
+      sitemap: false # 不把 CSS/JS/图片列进 sitemap.xml
 
 sass:
-  style: compressed
+  style: compressed # 编译 main.scss 时压缩 CSS
 
-external_links:
-  enabled: true
-  rel: external nofollow noopener
-  target: _blank
-  exclude:
+# -----------------------------------------------------------------------------
+# Jekyll Link Attributes
+# -----------------------------------------------------------------------------
+
+external_links: # jekyll-link-attributes 的外链规则
+  enabled: true # 开启外链处理
+  rel: external nofollow noopener # 外链的 rel 属性
+  target: _blank # 外链在新标签页打开
+  exclude: # 不处理的外链列表；当前为空
+
+# -----------------------------------------------------------------------------
+# Responsive WebP Images
+# -----------------------------------------------------------------------------
 
 imagemagick:
-  enabled: false
+  enabled: false # 不生成额外 WebP 响应式图片
 
-lazy_loading_images: true
+lazy_loading_images: true # 默认给图片加 loading="lazy"
 
 # -----------------------------------------------------------------------------
 # Third-party libraries
 # -----------------------------------------------------------------------------
 
 third_party_libraries:
-  google_fonts:
+  google_fonts: # 网页字体
     url:
       fonts: "https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&display=swap"
-  jquery:
+  jquery: # JS 辅助库，供 MDB/旧 Bootstrap 脚本使用
     integrity:
       js: "sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
     url:
       js: "https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"
-  mdb:
+  mdb: # Material Design Bootstrap，提供额外样式和交互
     integrity:
       css: "sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw="
       js: "sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA="
