@@ -12,7 +12,7 @@ social: true # includes social icons at the bottom of the page
 nav_order: 1
 ---
 
-I am a PhD student at Stanford. Prior to this, I obtained my B.S. in Mathematics and Physics at MIT, and I studied at Peking University before that. I am grateful to be supported by a Stanford Graduate Fellowship.
+I am a PhD student at Stanford. Prior to this, I obtained my B.S. in Mathematics and Physics at MIT, and studied at Peking University before that. I am grateful to be supported by a Stanford Graduate Fellowship.
 <br />
 <br />
 
