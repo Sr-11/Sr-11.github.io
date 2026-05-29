@@ -49,7 +49,6 @@ exclude: # 构建时不复制到 _site 的文件/目录
 
 plugins: # 构建时启用的 Jekyll 插件
   - jekyll-email-protect # 编码邮箱，减少被爬虫直接抓取
-  - jekyll-link-attributes # 给外链自动加 target 和 rel 属性
   - jekyll-sitemap # 自动生成 sitemap.xml
 
 defaults:
@@ -61,17 +60,6 @@ defaults:
 sass:
   style: compressed # 编译 main.scss 时压缩 CSS
 
-# -----------------------------------------------------------------------------
-# Jekyll Link Attributes
-# -----------------------------------------------------------------------------
-
-external_links: # jekyll-link-attributes 的外链规则
-  enabled: true # 开启外链处理
-  rel: external nofollow noopener # 外链的 rel 属性
-  target: _blank # 外链在新标签页打开
-  exclude: # 不处理的外链列表；当前为空
-
-# -----------------------------------------------------------------------------
 # Responsive WebP Images
 # -----------------------------------------------------------------------------
 
