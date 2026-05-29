@@ -4,6 +4,5 @@ group :jekyll_plugins do
     gem 'jekyll-email-protect'
     gem 'jekyll-link-attributes'
     gem 'jekyll-sitemap'
-    gem 'jemoji'
     gem 'webrick'
 end
